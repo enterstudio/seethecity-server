@@ -11,9 +11,63 @@ City.where(name: "Tokyo").first_or_create
 City.where(name: "Sao Paulo").first_or_create
 City.where(name: "Sydney").first_or_create
 City.where(name: "Bangalore").first_or_create
+City.where(name: "Berlin").first_or_create
+City.where(name: "Nairobi").first_or_create
 
 
 print "Adding attractions...\n"
+
+# Attractions: Berlin
+
+Attraction.where(name: "Berlin Philharmonic", handle: "BerlinPhil", user_id: "43298395", centroid_lat: 52.509875, centroid_long: 13.369564, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Jewish Museum Berlin", handle: "jmberlin", user_id: "19066920", centroid_lat: 52.502351, centroid_long: 13.395179, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "German Historical Museum Berlin", handle: "DHMBerlin", user_id: "375567854", centroid_lat: 52.518892, centroid_long: 13.396654, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Friedrichstadt-Palast", handle: "PalastBerlin", user_id: "320686886", centroid_lat: 52.523675, centroid_long: 13.388188, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Berghain", handle: "berghain", user_id: "390177346", centroid_lat: 52.511108, centroid_long: 13.443371, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Staatl Museen Berlin", handle: "smbmuseum", user_id: "281067933", centroid_lat: 52.50235, centroid_long: 13.358957, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Zoo Berlin", handle: "zooberlin", user_id: "157985707", centroid_lat: 52.507874, centroid_long: 13.337476, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Olympiastadion Berlin", handle: "Oly_Berlin", user_id: "393028176", centroid_lat: 52.51441, centroid_long: 13.239542, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Berlin Hauptbahnhof", handle: "hbf_berlin", user_id: "142692389", centroid_lat: 52.525097, centroid_long: 13.368855, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "KaDeWe", handle: "KaDeWeBerlin", user_id: "101762958", centroid_lat: 52.501135, centroid_long: 13.339969, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Ramones Museum", handle: "ramonesmuseum", user_id: "130973693", centroid_lat: 52.524928, centroid_long: 13.395623, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Naturkundemuseum", handle: "MfNBerlin", user_id: "47616261", centroid_lat: 52.530763, centroid_long: 13.382792, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Ristorante A Mano", handle: "ristoranteamano", user_id: "213495886", centroid_lat: 52.51929, centroid_long: 13.427462, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "The Circus Berlin", handle: "thecircusberlin", user_id: "980112319", centroid_lat: 52.530105, centroid_long: 13.401687, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Hotel De Rome", handle: "RF_HotelDeRome", user_id: "2558820780", centroid_lat: 52.515868, centroid_long: 13.393876, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "DDR Museum", handle: "ddrmuseum", user_id: "47316490", centroid_lat: 52.519327, centroid_long: 13.402797, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Markthalle Neun", handle: "markthalle9", user_id: "226614708", centroid_lat: 52.502033, centroid_long: 13.431917, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "The Story of Berlin", handle: "StoryOfBerlin", user_id: "92281014", centroid_lat: 52.501814, centroid_long: 13.322798, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Mercedes-Benz Arena", handle: "MBArenaBerlin", user_id: "28571215", centroid_lat: 52.506909, centroid_long: 13.444533, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Bauhaus-Archiv", handle: "bauhuasarchiv", user_id: "57583639", centroid_lat: 52.506526, centroid_long: 13.353335, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Computerspielemuseum", handle: "CSM_Berlin", user_id: "222106454", centroid_lat: 52.517349, centroid_long: 13.441853, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Konzerthaus Berlin", handle: "_Konzerthaus", user_id: "121230309", centroid_lat: 52.513696, centroid_long: 13.391425, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Madame Tussauds Berlin", handle: "TussaudsBerlin", user_id: "117575575", centroid_lat: 52.516789, centroid_long: 13.381208, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Deutsche Oper Berlin", handle: "deutsche_oper", user_id: "185669447", centroid_lat: 52.511916, centroid_long: 13.308129, city: City.find_by(name:"Berlin")).first_or_create
+Attraction.where(name: "Martin Gropius Bau", handle: "GropiusBau", user_id: "254065767", centroid_lat: 52.507046, centroid_long: 13.381139, city: City.find_by(name:"Berlin")).first_or_create
+
+# Attractions: Nairobi
+
+Attraction.where(name: "David Sheldrick Wildlife Trust", handle: "DSWT", user_id: "40079154", centroid_lat: -1.376506, centroid_long: 36.77145, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Nairobi National Park", handle: "kwskenya", user_id: "250024481", centroid_lat: -1.3666667, centroid_long: 36.8311393, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Karen Blixen Museum", handle: "DBlixen", user_id: "1144509468", centroid_lat: -1.3519444, centroid_long: 36.710306, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Giraffe Center", handle: "GiraffeCenter", user_id: "2969356119", centroid_lat: -1.3763639, centroid_long: 36.7421229, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Nairobi National Museum", handle: "museumsofkenya", user_id: "155484098", centroid_lat: -1.27408, centroid_long: 36.7970805, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Bomas of Kenya", handle: "BomasofKenyaltd", user_id: "3343907710", centroid_lat: -1.3368097, centroid_long: 36.7669005, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Carnivore Nairobi", handle: "Carnivoreke", user_id: "242712200", centroid_lat: -1.3290603, centroid_long: 36.7992788, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Tamasha Hurlingham", handle: "TamashaHurly", user_id: "82368848", centroid_lat: -1.2949675, centroid_long: 36.7948625, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Karura Forest", handle: "karurafriends", user_id: "138387724", centroid_lat: -1.2366945, centroid_long: 36.8217653, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Sarakasi Dome", handle: "SarakasiTrust", user_id: "44326308", centroid_lat: -1.3013232, centroid_long: 36.7821981, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Village Market", handle: "VillageMarket", user_id: "194472988", centroid_lat: -1.2293905, centroid_long: 36.80354, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Junction Mall", handle: "thejunctionmall", user_id: "802737433", centroid_lat: -1.2618956, centroid_long: 36.7657481, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Uhuru Park", handle: "uhurupark", user_id: "726414242", centroid_lat: -1.2903935, centroid_long: 36.8143894, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Sarit Centre", handle: "Sarit_Centre", user_id: "2791276551", centroid_lat: -1.260966, centroid_long: 36.799826, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Save the Elephants", handle: "ste_kenya", user_id: "63076720", centroid_lat: -1.3370939, centroid_long: 36.7092088, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Kenya Forest Service Headquarters", handle: "KeForestService", user_id: "802070076", centroid_lat: -1.2507703, centroid_long: 36.8427292, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Kenya Tourism Office", handle: "MagicalKenya", user_id: "18667838", centroid_lat: -1.2898683, centroid_long: 36.8108388, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Brand Kenya Board", handle: "BrandKenya", user_id: "156232761", centroid_lat: -1.2946293, centroid_long: 36.8126817, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Capital FM Radiostation", handle: "CapitalFMKenya", user_id: "92731878", centroid_lat: -1.281625, centroid_long: 36.7984555, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "Citizen TV Keyna", handle: "citizentvkenya", user_id: "70394965", centroid_lat: -1.2865666, centroid_long: 36.7889439, city: City.find_by(name:"Nairobi")).first_or_create
+Attraction.where(name: "K24 TV", handle: "K24Tv", user_id: "20087934", centroid_lat: -1.2865705, centroid_long: 36.7889547, city: City.find_by(name:"Nairobi")).first_or_create
 
 # Attractions: Bangalore
 
