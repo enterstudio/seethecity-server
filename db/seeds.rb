@@ -2205,4 +2205,123 @@ AttractionAudienceInterest.where(interest: Interest.find_by(name:"Books/literatu
 AttractionAudienceInterest.where(interest: Interest.find_by(name:"Sports news"), percentage:57, attraction: Attraction.find_by(handle:"RCBTweets")).first_or_create
 AttractionAudienceInterest.where(interest: Interest.find_by(name:"Technology/computing"), percentage:57, attraction: Attraction.find_by(handle:"RCBTweets")).first_or_create
 
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:9, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:17, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Dance"), percentage:22, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Design"), percentage:7, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Painting"), percentage:4, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Performance arts"), percentage:5, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:6, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:4, attraction: Attraction.find_by(handle:"berghain")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Arts/crafts"), percentage:8, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:7, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:17, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Dance"), percentage:4, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Design"), percentage:10, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Painting"), percentage:9, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Performance arts"), percentage:57, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:8, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Sci-fi/fantasy"), percentage:3, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:3, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:6, attraction: Attraction.find_by(handle:"BerlinPhil")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:8, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:14, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:5, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:5, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:12, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Business travel"), percentage:4, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Europe"), percentage:3, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:4, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:6, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:12, attraction: Attraction.find_by(handle:"BrandKenya")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:19, attraction: Attraction.find_by(handle:"CapitalFMKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:18, attraction: Attraction.find_by(handle:"CapitalFMKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:9, attraction: Attraction.find_by(handle:"CapitalFMKenya")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:15, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:22, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:9, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:3, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:8, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:3, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:3, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:7, attraction: Attraction.find_by(handle:"Carnivoreke")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:16, attraction: Attraction.find_by(handle:"citizentvkenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:12, attraction: Attraction.find_by(handle:"citizentvkenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:6, attraction: Attraction.find_by(handle:"citizentvkenya")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Arts/crafts"), percentage:19, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:7, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:13, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Dance"), percentage:10, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Design"), percentage:42, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Painting"), percentage:19, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Performance arts"), percentage:65, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:11, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:5, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:11, attraction: Attraction.find_by(handle:"deutsche_oper")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Birdwatching"), percentage:9, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:20, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:25, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Design"), percentage:3, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:18, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Sci-fi/fantasy"), percentage:6, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Shopping"), percentage:3, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:10, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:8, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Business travel"), percentage:5, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Camping"), percentage:4, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Europe"), percentage:5, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:5, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:7, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"National parks"), percentage:7, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:15, attraction: Attraction.find_by(handle:"DSWT")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:18, attraction: Attraction.find_by(handle:"K24Tv")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:20, attraction: Attraction.find_by(handle:"K24Tv")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:9, attraction: Attraction.find_by(handle:"K24Tv")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:11, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:18, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:7, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:5, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:11, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Business travel"), percentage:3, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Europe"), percentage:3, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:3, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:4, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:10, attraction: Attraction.find_by(handle:"kwskenya")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:11, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:17, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:5, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:6, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:14, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Business travel"), percentage:5, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Europe"), percentage:4, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:6, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:6, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:12, attraction: Attraction.find_by(handle:"MagicalKenya")).first_or_create
+
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Birdwatching"), percentage:5, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Celebrities/gossip"), percentage:23, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Comedy"), percentage:26, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Photography"), percentage:12, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Sci-fi/fantasy"), percentage:5, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Shopping"), percentage:4, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Adventure travel"), percentage:7, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Air travel"), percentage:5, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Business travel"), percentage:3, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Camping"), percentage:3, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Europe"), percentage:3, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Hotels"), percentage:4, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Luxury travel"), percentage:4, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"National parks"), percentage:4, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+AttractionAudienceInterest.where(interest: Interest.find_by(name:"Travel news"), percentage:12, attraction: Attraction.find_by(handle:"ste_kenya")).first_or_create
+
 print "DB loaded!\n"
