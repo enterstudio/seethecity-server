@@ -18,7 +18,7 @@ SeetheCity Server is a Ruby on Rails backend for the [demo SeetheCity iOS tour g
 
 1. Run the self-setup script:
 
-		cd helloworld-server
+		cd seethecity-server
         ./bin/setup
 
 1. Run `rake secret` and add the secret to `.env`
