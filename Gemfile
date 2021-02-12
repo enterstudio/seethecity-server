@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby "2.2.0"
 
 gem 'active_model_serializers'
-gem 'rails', '4.2.5.rc1'
+gem 'rails', '6.0.3.5'
 gem 'pg', '~> 0.15'
 gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.0'
